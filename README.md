@@ -2,7 +2,7 @@
 
 **Platform:** SolveSQL | HackerRank
 
-**Link:** https://www.hackerrank.com/domains/sql?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=sql 
+**Source:** https://www.hackerrank.com/domains/sql?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=sql 
 
 ### Weather Observation Station Q1
 **Problem:** Query a list of CITY names from STATION for cities that have an even ID number. Print the results in any order, but exclude duplicates from the answer.
@@ -99,3 +99,7 @@ FROM station
 WHERE city NOT REGEXP '^[AEIOUaeiou]'
 AND city NOT REGEXP '[AEIOUaeiou]$';
 ```
+📝 ### Key Learnings
+• Combined SELECT with other basic SQL statements and clauses
+• Learnt to utilise REGEXP 
+
